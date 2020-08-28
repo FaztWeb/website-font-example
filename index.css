@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Still Time';
+  src: url(still-time/still\ time.ttf);
+}
+
+
+html {
+  background-color: red;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #000;
+  color: white;
+  font-family: 'Still Time';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30rem;
+}
